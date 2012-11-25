@@ -1,0 +1,18 @@
+
+# load the application module (app.coffee)
+modules: ['cs!$/app']
+
+# RequireJS config - exactly as in RequireJS docs
+require:
+  paths:
+    app: '../app'
+
+  # requirejs build config (exactly as in requirejs docs, but with defaults provided)
+  build:
+    # dont load cs
+    stubModules: ['cs']
+    zestLayer:
+      include: ['cs!app/home']
+
+# port to run the server on
+port: 8080
