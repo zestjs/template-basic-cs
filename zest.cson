@@ -7,12 +7,10 @@ require:
   paths:
     app: '../app'
 
-  # requirejs build config (exactly as in requirejs docs, but with defaults provided)
+  # requirejs build config
   build:
-    # dont load cs
-    stubModules: ['cs']
     zestLayer:
-      include: ['$attach!cs!app/home']
+      include: ['^!cs!app/home']
 
 # port to run the server on
 port: 8080
