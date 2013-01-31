@@ -11,6 +11,7 @@ require:
   build:
     zestLayer:
       include: ['^!cs!app/home']
+      # separateCSS: true # enable for separate CSS build layer
 
 # port to run the server on
 port: 8080
