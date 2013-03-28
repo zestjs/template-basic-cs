@@ -11,11 +11,11 @@
   },
   "volo": {
     "dependencies": {
-      "require": "jrburke/requirejs",
-      "zest": "zestjs/zest",
+      "require": "jrburke/requirejs/2.1.4",
+      "zest": "zestjs/zest/0.0.1",
       "jquery": "github:jquery/jquery/1.9.0",
-      "require-less": "guybedford/require-less",
-      "http": "guybedford/http-amd"
+      "require-less": "guybedford/require-less/0.0.1",
+      "http": "guybedford/http-amd/0.0.1"
     }
   }
 }
